@@ -1,0 +1,86 @@
+git config --global user.name "Vipul Tembulwar"
+git config --global user.email " "
+git config --global --edit
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git
+$ git init
+Initialized empty Git repository in D:/CDAC/git/.git/
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        D1.html
+        Demo.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git (master)
+$ git add .
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   D1.html
+        new file:   Demo.html
+
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git (master)
+$ git commit -m "first commit by harshada"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HARSHADA@DESKTOP-TLGLF7E.(none)')
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git (master)
+$ git commit -m "first commit by harshada"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HARSHADA@DESKTOP-TLGLF7E.(none)')
+
+HARSHADA@DESKTOP-TLGLF7E MINGW64 /d/CDAC/git (master)
+$ git commit -m "first commit by harshada"
+[master (root-commit) 1946a70] first commit by harshada
+ 2 files changed, 25 insertions(+)
+ create mode 100644 D1.html
+ create mode 100644 Demo.html
