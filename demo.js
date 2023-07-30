@@ -4,6 +4,9 @@ function ValidateEmail(inputText)
 	if(inputText.value.match(mailformat))
 	{
 		alert("This is not a valid email address");
+
+
+		
 		console.log("askdckjbsjcb")
 		return false;
 		}
